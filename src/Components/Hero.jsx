@@ -1,6 +1,6 @@
 import { Carousel } from "flowbite-react";
 import Banner1 from "../assets/banner.png"
-const Home = () => {
+const Hero = () => {
     return (
         <div className="bg-neutralSilver">
             <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
@@ -45,4 +45,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Hero;
