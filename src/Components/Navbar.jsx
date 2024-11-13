@@ -16,7 +16,7 @@ const Navbar = () => {
 
     const navItems = [
         {link: "Home", path: "home"},
-        {link: "Service", path: "service"},
+        {link: "Service", path: "services"},
         {link: "About", path: "about"},
         {link: "Product", path: "product"},
         {link: "Testimonial", path: "testimonial"},
@@ -42,12 +42,13 @@ const Navbar = () => {
         <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
             <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300" : ""}`}>
                 <div className="flex justify-between items-center text-base gap-8">
-                    <a href="" className="text-2xl font-semibold flex items-center space-x-3"><img src={logo} alt="" className="w-10 inline-block items-center"/><span className="text-[#263238]">NEXGEN</span></a>
+                    <a href="" className="text-2xl font-semibold flex items-center space-x-3">
+                    <img src={logo} alt="" className="w-10 inline-block items-center"/><span className="text-[#263238]">NEXGEN</span></a>
 
                     {/** nav items for large devices */}
                     <ul className="md:flex space-x-12 hidden">
                          {
-                            navItems.map(({link, path}) => <Link key={path} spy={true} smooth={true} offset={-100} to={path} className=" block text-base text-gray900 hover:text-brandPrimary first:font-medium">{link}</Link>)
+                            navItems.map(({link, path}) => <Link key={path} spy={true} smooth={true} offset={-100} to={path} className=" block cursor-pointer text-base text-gray900 hover:text-brandPrimary first:font-medium">{link}</Link>)
                          }
                     </ul>
 

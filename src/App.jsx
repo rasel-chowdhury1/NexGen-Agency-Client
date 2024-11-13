@@ -1,7 +1,9 @@
 
+
 import './App.css'
 import About from './Components/About'
 import Blog from './Components/Blog'
+import Footer from './Components/MyFooter'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import NewsLetter from './Components/NewsLetter'
@@ -19,6 +21,7 @@ function App() {
        <Product/>
        <Blog/>
        <NewsLetter/>
+       <Footer/>
     </>
   )
 }
