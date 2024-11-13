@@ -14,8 +14,8 @@ const About = () => {
                         <img src={aboutImg} alt="" />
                     </div>
                     <div className="md:w-3/5 mx-auto ">
-                        <h2 className="text-4xl text-neutralDGray font-semibold mb-4 md:w-4/5">How to design your site footer like we did</h2>
-                        <p className="md:w-3/4 text-sm text-neutralGray mb-8">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                        <h2 className="text-4xl text-neutralDGray font-semibold mb-4 md:w-4/5">The unseen of spending three years at Pixelgrade</h2>
+                        <p className="md:w-3/4 text-sm text-neutralGray mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
                         <button className="btn-primary ">Learn More</button>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const About = () => {
                         <div className="space-y-8 ">
 
                             <div className="flex items-center gap-4">
-                                <img src={member} alt="" />
+                                <img src={member} alt="" className="w-15 h-10" />
                                 <div>
                                     <h4 className="text-2xl text-neutralDGray font-semibold ">2,245,341</h4>
                                     <p>Members</p>
@@ -42,7 +42,7 @@ const About = () => {
                             </div>
 
                             <div className="flex items-center gap-4">
-                                <img src={booking} alt="" />
+                                <img src={booking} alt="" className="w-10 h-12"/>
                                 <div>
                                     <h4 className="text-2xl text-neutralDGray font-semibold ">828,867</h4>
                                     <p>Event Bookings</p>
@@ -54,7 +54,7 @@ const About = () => {
                         <div className="space-y-8 ">
 
                             <div className="flex items-center gap-4">
-                                <img src={clubs} alt="" />
+                                <img src={clubs} alt="" className="w-10 h-10" />
                                 <div>
                                     <h4 className="text-2xl text-neutralDGray font-semibold ">46,328</h4>
                                     <p>Clubs</p>
@@ -62,7 +62,7 @@ const About = () => {
                             </div>
 
                             <div className="flex items-center gap-4">
-                                <img src={payments} alt="" />
+                                <img src={payments} alt="" className="w-14 h-11" />
                                 <div>
                                     <h4 className="text-2xl text-neutralDGray font-semibold ">1,926,436</h4>
                                     <p>Payments</p>
