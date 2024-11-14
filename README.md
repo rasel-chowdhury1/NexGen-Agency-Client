@@ -2,6 +2,12 @@
 
 This is a landing page for an agency website built using **React**, **Tailwind CSS**, **Flowbite**, and **React Icons**. The landing page includes the following sections: **Navbar**, **Hero**, **Service**, **About**, **Blog**, **Product**, and **Footer**.
 
+## 📸 Demo
+
+![Website Layout](src/assets/sample.png)
+
+## 🧑‍💻 Getting Started
+
 ## 🚀 Features
 
 - **Responsive Navbar**: Fully responsive navigation menu.
@@ -19,11 +25,7 @@ This is a landing page for an agency website built using **React**, **Tailwind C
 - **Flowbite** - Tailwind CSS components for a better UI experience.
 - **React Icons** - Collection of popular icons for React.
 
-## 📸 Demo
 
-![Website Layout](src/assets/sample.png)
-
-## 🧑‍💻 Getting Started
 
 ### Prerequisites
 
