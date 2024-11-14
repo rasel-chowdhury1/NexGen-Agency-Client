@@ -22,6 +22,7 @@ This is a landing page for an agency website built using **React**, **Tailwind C
 ## 📸 Demo
 
 ![Landing Page Screenshot](https://ibb.co.com/stFvQNf)  
+<img align="right" alt="Coding" width="400" src="https://ibb.co.com/stFvQNf">
 > Example screenshot of the landing page.
 
 ## 🧑‍💻 Getting Started
