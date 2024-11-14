@@ -21,7 +21,7 @@ This is a landing page for an agency website built using **React**, **Tailwind C
 
 ## 📸 Demo
 
-![Website Layout](assets/sample.png)
+![Website Layout](src/assets/sample.png)
 
 ## 🧑‍💻 Getting Started
 
